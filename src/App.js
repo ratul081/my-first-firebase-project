@@ -15,8 +15,8 @@ function App() {
         const user = result.user;
         setUser(user);
       })
-      .catch(err => {
-        console.error("error", err);
+      .catch(error => {
+        console.error("error", error);
       })
   }
 
